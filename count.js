@@ -6,3 +6,6 @@ const count = ()=>{
  alert(`Counter is now ${counter}`);
     }
 }
+document.addEventListener('DOMContentloaded',()=>{
+    document.querySelector('button').onclick = count;
+})
